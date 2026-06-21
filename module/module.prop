@@ -1,0 +1,6 @@
+id=feilian-proxy
+name=Feilian VPN Proxy
+version=1.0.0
+versionCode=1
+author=feilian-android-server
+description=飞连 VPN 保活 + gost HTTP 代理

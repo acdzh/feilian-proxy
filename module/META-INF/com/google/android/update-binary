@@ -1,0 +1,21 @@
+#!/sbin/sh
+#################
+# Initialization
+#################
+TMPDIR=/dev/tmp
+rm -rf $TMPDIR
+mkdir -p $TMPDIR
+
+# 让 Magisk 接管安装
+export OUTFD=$2
+ZIPFILE=$3
+
+mount /data 2>/dev/null
+
+# 加载 Magisk 工具
+[ -f /data/adb/magisk/util_functions.sh ] || abort "! 找不到 Magisk"
+. /data/adb/magisk/util_functions.sh
+[ $MAGISK_VER_CODE -lt 20400 ] && abort "! 需要 Magisk v20.4+"
+
+install_module
+exit 0

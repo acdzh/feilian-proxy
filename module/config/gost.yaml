@@ -1,0 +1,19 @@
+services:
+- name: http-proxy
+  addr: :8888
+  handler:
+    type: http
+  listener:
+    type: tcp
+  resolver: vpn-dns
+
+resolvers:
+- name: vpn-dns
+  nameservers:
+  - addr: 10.8.8.18:53
+  - addr: 10.0.0.1:53
+  - addr: 114.114.114.114:53
+  - addr: 223.5.5.5:53
+
+api:
+  addr: :18080

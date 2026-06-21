@@ -1,0 +1,100 @@
+README.md
+  h_bbd6aa7ca21690 5,7,9-60
+  s_5d1a7042068aa5::t_b2a4a8c6c4d8b8 61-131 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a382abc3ba8e426a1712ec9","tool_type":"agent","tool_id":"Write","line_ranges":[{"Range":[61,131]}]}]}
+module/scripts/gost-ctl.sh
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-25
+module/module.prop
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-6
+.trae/documents/proxy-service-reference.md
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-127
+.gitattributes
+  s_5d1a7042068aa5::t_2acd233744c1ce 1
+module/customize.sh
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-9
+module/config/gost.yaml
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-19
+.trae/documents/vpn-control-reference.md
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-221
+.github/workflows/release.yml
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-22
+module/service.sh
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-28
+.gitignore
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-2
+module/META-INF/com/google/android/update-binary
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-21
+module/scripts/vpn-monitor.sh
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-58
+.trae/documents/implementation-plan.md
+  s_5d1a7042068aa5::t_2acd233744c1ce 1-130
+module/META-INF/com/google/android/updater-script
+  s_5d1a7042068aa5::t_2acd233744c1ce 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "67d411012898ee6c5daa95efcad4c59ac7600dbd",
+  "prompts": {},
+  "humans": {
+    "h_bbd6aa7ca21690": {
+      "author": "acdzh <acdzh@outlook.com>"
+    }
+  },
+  "sessions": {
+    "s_5d1a7042068aa5": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a3829313ba8e426a1712e81",
+        "model": "c_o_new_thinking-opt__max"
+      },
+      "human_author": null
+    }
+  },
+  "attestation_metadata": {
+    "README.md": [
+      {
+        "hash": "s_5d1a7042068aa5::t_b2a4a8c6c4d8b8",
+        "line_ranges": [
+          {
+            "Range": [
+              61,
+              131
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a382abc3ba8e426a1712ec9",
+            "tool_type": "agent",
+            "tool_id": "Write",
+            "line_ranges": [
+              {
+                "Range": [
+                  61,
+                  131
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_5d1a7042068aa5": {
+      "tool": "trae",
+      "conversation_id": "6a3829313ba8e426a1712e81",
+      "session_id": "6a3829313ba8e426a1712e81",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_5d1a7042068aa5::t_b2a4a8c6c4d8b8": {
+      "tool": "trae",
+      "conversation_id": "6a3829313ba8e426a1712e81",
+      "session_id": "6a3829313ba8e426a1712e81",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
